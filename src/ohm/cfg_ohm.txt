@@ -1,0 +1,66 @@
+client: NvidiaTEST
+priority: 0
+id: Darlington_Pair_1
+width: 11
+height: 7
+components:
+2N3904: (0,0),0
+2N3904: (10,0),1
+connections: (1.3,2.2), (1.1,2.1)
+id: REEEEEN3904
+width: 7
+height: 3
+pins: (1,1),(3,1),(5,1)
+
+client: Samsung
+priority: 1
+id: Exynos_A_100_B87
+width: 150
+height: 30
+components:
+2N3904: (10,0),1
+8D9775: (50,0),0
+8D9775: (120,15),3
+connections: (1.3,2.2), (1.1,2.1), (2.4,3.1), (2.5,3.3), (2.7,3.7), (1.2,3.5)
+id: 2N3904
+width: 
+height: 3
+pins: (1,1),(3,1),(5,1)
+id: 8D9775
+width: 9
+height: 9
+pins: (1,1),(3,1),(5,1),(7,1),(1,7),(3,7),(5,7),(7,7)
+
+client: Intel
+priority: 0
+id: Q670E_chipset_100
+width: 500
+height: 200
+components:
+8Z1001: (0,0),0
+8Z1001: (40,80),3
+10KZ600: (40,20),0
+10KZ600: (140,100),0
+10KZ600: (300,100),0
+10KZ600: (400,150),3
+2N3904: (0,20),0
+9N3800: (450,100),0
+connections: (1.1,2.1), (2.2,3.2), (2.3,4.6), (4.8,5.8), (5.1,6.1), (5.2,6.2), (6.7,7.1), (6.3,8.2)
+id: 9N3800
+width: 3
+height: 3
+pins:(1,1)(1,2)
+
+client: Acer
+priority: 1
+id: Darlington_Pair_0
+
+client: RenibO
+priority: 0
+id: Darlington_Pair_0
+width: 11
+height: 7
+components:
+2N3904: (0,0),0
+2N3904: (10,0),1
+connections: (1.3,2.2), (1.1,2.1)

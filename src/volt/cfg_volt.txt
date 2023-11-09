@@ -1,0 +1,35 @@
+ g++ .\ProcessManagement.cpp .\main.cpp  ..\shared\Board.cpp .\UpdateDesignLibrary.cpp  -o ..\volt\test.exe  
+.\test.exe
+2N3904 8 
+
+
+parsing Darlington_Pair desing - Darlington_Pair_12; 11, 7;{2N3904: 0, 0, 0}{2N3904: 10, 0, 1};{1.3,2.2}{1.1,2.1};
+parsing electronic component design - 9P3905; 7; 3;1,1,3,1,5,1;
+
+
+order maybe final design : 
+D1951CE Reni: NORMAL; UNPROCESSED; {{Cool_Product_0; 11, 7;{2N3904: 0, 0, 0}{HZ100: 10, 0, 1};{1.3,2.2}{1.1,2.1};}}{{9P3904; 7; 3;1,1,3,1,5,1;}} {{HZ100; 7; 3;1,2,3,2,5,2;}}
+D1951CE NVIDIA: NORMAL; UNPROCESSED; {{Darlington_Pair_0; 11, 7;{2N3904: 0, 0, 0}{2N3904: 10, 0, 1};{1.3,2.2}{1.1,2.1};}}{{9P3904; 7; 3;1,1,3,1,5,1;}} 
+D1951CE Vasil: HIGH; UNPROCESSED; {{Darlington_Pair_1; 20, 7;{2N3904: 0, 0, 0}{2N3904: 10, 0, 1};{1.3,2.2}{1.1,2.1};}}{{9P3902; 7; 3;1,1,3,1,5,1;}} {{9P3903; 7; 3;1,1,3,1,5,1;}} {{9P3904; 7; 3;1,1,3,1,5,1;}}
+design for print_jobs:
+
+ID3;Darlington_Pair_0; 1;
+
+OrderID;Darlington_Pair_0;1;
+
+Libraries:
+
+EC - 9P3905; 7; 3;1,1,3,1,5,1;           //775 257 263 261;
+HC - Darlington_Pair_0; 11, 7;{2N3904: 0, 0, 0}{2N3904: 10, 0, 1};{1.3,2.2}{1.1,2.1}; {2N3904; 2; {0,0}{10,0}}{2N3905; 1; {0,4}};   //1281 777 257 265 234 532
+
+
+C1681FA NvidiaTEST: NORMAL; UNPROCESSED; {{Darlington_Pair_0; 11; 7; {2N3904: 0,0,0}{2N3904: 10,0,1}; (1.3,2.2),(1.1,2.1)}}; REEEEEN3904;7;3;(1,1),(3,1),(5,1); REEEEEN3905;7;3;(1,1),(3,1),(5,1);
+D1951CE Vasil: HIGH; UNPROCESSED; {{Darlington_Pair_1; 20, 7;{2N3904: 0, 0, 0}{2N3904: 10, 0, 1};{1.3,2.2}{1.1,2.1};}}{{9P3902; 7; 3;1,1,3,1,5,1;}} {{9P3903; 7; 3;1,1,3,1,5,1;}} {{9P3904; 7; 3;1,1,3,1,5,1;}}
+
+
+Final design:
+C1681FA NvidiaTEST: NORMAL; UNPROCESSED; {{Darlington_Pair_0; 11; 7; {2N3904: 0,0,0}{2N3904: 10,0,1}; (1.3,2.2),(1.1,2.1)}}; REEEEEN3904; 7; 3; (1,1),(3,1),(5,1); REEEEEN3905; 7; 3; (1,1),(3,1),(5,1);
+
+
+
+
